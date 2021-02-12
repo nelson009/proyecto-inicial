@@ -1,0 +1,17 @@
+/*Ficha tecnica */
+span{
+	@extend %colorFuente;
+}
+
+div ul{
+	list-style: none;
+	padding: 0;
+}
+
+.fondoNegro{
+	background-color: black;
+}
+
+.tituloColor{
+	@extend %colorFuente;
+}

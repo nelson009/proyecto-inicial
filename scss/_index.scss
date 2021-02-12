@@ -1,0 +1,14 @@
+/*Index scale imagen*/
+.scale div img{
+	cursor: pointer;
+	
+	transition: 1s;
+
+ }
+ .scale div{
+ 	overflow: hidden;
+ }
+
+ .scale div img:hover{
+	transform: scale(1.3);
+}

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="stilos.css">
+		<link rel="stylesheet" type="text/css" href="css\main.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@500&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -14,9 +14,10 @@
 	</head>
 	<body>
 		<header>
+			<!-- Inicio del menu-->
 			<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
 				<a class="navbar-brand" href="index.html">
-					<img src="assets\imagenes/logo.jpg" width="210" height="40"alt="logo" loading="lazy">
+					<img src="assets\imagenes\logo.jpg" width="210" height="40"alt="logo" loading="lazy">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -36,41 +37,119 @@
 					</div>
 				</div>
 			</nav>
-			
 		</header>
 
 		<main>
-			<div class="container border border-white color">
+			<!-- Video de fondo-->
+			<div class="embed-responsive embed-responsive-16by9 videoFondo">
+				<video src="assets\video\avengers.mkv" autoplay="" loop="" muted="" poster=""></video>
+			</div>
+			<!-- Inicio seccion Seriestv-->
+			<div class="container bordeBlanco">
 				<h1 class="silver animate__animated animate__zoomIn">SERIESTV:</h1>
 				<div class="row">
-					
-					 <section class="col-sm-8">
+					<section class="col-sm-8">
+						<!-- Video de loki-->
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe width="100%" height="315" src="https://www.youtube.com/embed/mjZmySwHKO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
-
+						<!-- Inicio Ficha Tecnica-->
 						<h3 class="silver mt-3">FICHA TECNICA</h3>
-						
-						<div class="row mt-3">
 
-							<div class="col-4">
-								<img src="http://es.web.img3.acsta.net/c_310_420/pictures/19/07/23/11/13/3633579.jpg" class="img-thumbnail" alt="...">
-								
+						<div class="row mt-3">
+							<!-- Imagen de Loki-->
+							<div class="col-sm-4">
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM69gEq7C5bUNRzxF7UwOslTkEe8LtQ28rwg&usqp=CAU" class="img-thumbnail" alt="...">
 							</div>
-							<div class="col-8">
-								<p>Título: Loki</p>
-								<p>Primera emisión: Mayo de 2021</p>
-								<p>sinopsis: El villano mercurial Loki retoma su papel de Dios de las Mentiras en una nueva serie que tiene lugar después de los eventos de Avengers: Endgame</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa magnam repellendus nostrum ullam at doloremque tempore necessitatibus natus vel? Officiis adipisci magni dolores quam fuga voluptate obcaecati, ut soluta quidem.</p>
+							<!-- Informacion de pelicula Loki-->
+							<div class="col-sm-8 fondoNegro">
+								<ul>
+									<li>
+										<span>Titulo:</span>
+										Loki
+									</li>
+									<li>
+										<span>Año:</span>
+										2021
+									</li>
+									<li>
+										<span>Direccion:</span>
+										Kate Herron, Michael Waldron(Guion)
+									</li>
+									<li>
+										<span>Productora:</span>
+										Marvel Studios
+									</li>
+									<li>
+										<span>Genero:</span>
+										Ciencia ficcion, Fantastico
+									</li>
+									<li class="alinear">
+										<span>Sinopsis:</span>
+										 El mercurial villano Loki (Tom Hiddleston) retoma su papel de Dios de la Travesura en una nueva serie que mostrará al Dios de las Mentiras mientras se aleja de la sombra de su hermano en una nueva serie que tiene lugar después de los eventos de ‘Vengadores: Endgame’.
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Seccion pelicula Lupin-->
+						<h2 class="silver mt-3">LUPIN</h2>
+
+						<div class="row">
+							<!-- Video de Lupin-->
+							<div class="col-sm-12">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/yX5Py7lL5dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<!-- Inicio Ficha Tecnica-->
+						<h3 class="silver mt-3">FICHA TECNICA</h3>
+						<div class="row mt-3">
+							<!-- Imagen de Lupin-->
+							<div class="col-sm-4">
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj5QRyypGJq1t8KHmPKmr3y1USAf-bpCntsg&usqp=CAU"class="img-thumbnail" alt="...">
+							</div>
+							<!-- Informacion de pelicula Lupin-->
+							<div class="col-sm-8 fondoNegro">
+									<ul>
+									<li>
+										<span>Titulo:</span>
+										Lupin
+									</li>
+									<li>
+										<span>Año:</span>
+										2021
+									</li>
+									<li>
+										<span>Guion:</span>
+										George Kay, Francois Uzan, Florent Meyer, Tigran Rosine
+										
+									</li>
+									<li>
+										<span>Productora:</span>
+										Netflix, Gaumont Television
+									</li>
+									<li>
+										<span>Genero:</span>
+										Intriga, Robos & Atracos
+									</li>
+									<li class="alinear">
+										<span>Sinopsis:</span>
+										Miniserie de TV (2021). 5 episodios. Versión contemporánea del clásico francés, Omar Sy da vida a Assane Diop, ladrón de guante blanco y aficionado a las aventuras de Arsene Lupin que busca vengar la muerte de su padre
+									</li>
+								</ul>
+								
 							</div>
 						</div>	
 					</section>
-
-					<section class="col-sm-4 border color">
+					<!-- Inicio de seccion Mas Trailers-->
+					<section class="col-sm-4">
 						<h3 class="silver">MAS TRAILERS</h3>
+						<!-- video The Umbrela Academia-->
 						<div class="embed-responsive embed-responsive-16by9">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/znk2OICHbjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/Hv1U9lEEgCU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
+						<!-- Video Utopia-->
 						<div class="row mt-3">
 							<div class="col-sm-12">
 								<div class="embed-responsive embed-responsive-16by9">
@@ -78,7 +157,8 @@
 								</div>
 								
 							</div>
-						</div>	
+						</div>
+						<!-- Video The Mandaloria-->	
 						<div class="row mt-3">
 							<div class="col-sm-12">
 								<div class="embed-responsive embed-responsive-16by9">
@@ -87,6 +167,7 @@
 								
 							</div>
 						</div>
+						<!-- Video EL Mundo Oculto De Sabrina-->
 						<div class="row mt-3">
 							<div class="col-sm-12">
 								<div class="embed-responsive embed-responsive-16by9">
@@ -94,20 +175,38 @@
 								</div>
 								
 							</div>
+						</div>
+						<!-- Video Snowpierce-->
+						<div class="row mt-3">
+							<div class="col-sm-12">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/2w00TDRraZk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<!-- Video Bridgerton-->
+						<div class="row mt-3">
+							<div class="col-sm-12">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/QOCjnCXS7GI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<!-- Video Maldita-->
+						<div class="row mt-3">
+							<div class="col-sm-12">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/valGrA7Q97Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
 						</div>	
 					</section>
 				</div>
 			</div>
-				
-			
 		</main>
 
 		<footer>
-			<div >
 				<h4>© 2021 PelisBOND | Mira Online tus Estrenos y Series Favoritas. Todos los Derechos Reservados</h4>
-				
-			</div>
-		
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

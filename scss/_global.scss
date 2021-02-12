@@ -1,0 +1,84 @@
+/* VARIABLES */
+$fuente-global: 'Open Sans', sans-serif;
+$fuente-titulo: 'Oswald', sans-serif;
+$bg-image-footer: linear-gradient(to bottom, navy, dodgerblue);
+$color-titulo-global: #ffffff;
+$bg-color-titulo-global: #E8120C;
+$color-global: #0093de;
+/* MIXIN */
+@mixin estilobody{
+	width: 100%;
+	height: auto;
+}
+/* EXTEND */
+%colorFuente{
+	color: $color-global;
+}
+
+/* Body */
+body{
+	background-image: url(https://i0.wp.com/proximatanda.com/wp-content/uploads/2019/04/marvel.jpg?w=1920&ssl=1);
+	margin: 0px;
+	padding-top: 90px;
+	color: white;
+	font-family: $fuente-global;
+}
+
+header{
+	@include estilobody;
+}
+
+main{
+	@include estilobody;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	margin-top: 80px;
+	background-image: $bg-image-footer;
+}
+
+/*Navbar*/
+nav a img{
+	animation: animacion 5s ;
+}
+
+@keyframes animacion{
+	from{
+		transform: scale(0);
+	}
+	to{
+		transform: scale(1);
+	}
+
+}
+/*Titulo personalizado global*/
+.silver{
+	color: $color-titulo-global;
+	font-family: $fuente-titulo;
+	text-align: center;
+	background-color: $bg-color-titulo-global;
+	font-size: 25px;
+}
+/*Pie de pagina */
+h4{
+	color: white;
+	font-family: $fuente-global;
+	font-size: 12px;
+	padding-top: 15px;
+	text-align: center;
+}
+/*BORDE MAQUETADO*/
+.bordeBlanco{
+	box-shadow: 3px 5px 25px white;
+}
+/*Video de fondo*/
+.videoFondo{
+	position: absolute;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}

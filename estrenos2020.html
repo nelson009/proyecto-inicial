@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="stilos.css">
+		<link rel="stylesheet" type="text/css" href="css\main.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@500&family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -12,9 +12,10 @@
 	</head>
 	<body>
 		<header>
+			<!-- Inicio del Menu-->
 			<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
 				<a class="navbar-brand" href="index.html">
-					<img src="assets\imagenes/logo.jpg" width="210" height="40"alt="logo" loading="lazy">
+					<img src="assets\imagenes\logo.jpg" width="210" height="40"alt="logo" loading="lazy">
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -36,33 +37,89 @@
 			</nav>	
 		</header>
 		<main>
-			<div class="container">
+			<!-- Video de fondo-->
+			<div class="embed-responsive embed-responsive-16by9 videoFondo">
+				<video src="assets\video\avengers.mkv" autoplay="" loop="" muted="" poster=""></video>
+			</div>
+			<!-- Inicio seccion Peliculas-->
+			<div class="container bordeBlanco">
 				<h1 class="silver animate__animated animate__zoomIn">PELICULAS</h1>
-				<section class="row mt-4">
+				<section class="row mt-4 color">
+					<!-- Video Soul-->
 					<div class="col-sm-6">
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/3QIdlo4uIVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
-						
 					</div>
-					<div class="col-sm-6 mt-4 mt-sm-0">
+					<!-- Inicio Ficha Tecnica-->
+					<div class="col-sm-6 mt-4 mt-sm-0 fondoNegro">
 						<h3 class="silver">FICHA TECNICA</h3>
-						<p>	Titulo: Soul</p>
-						<p>Sinopsis: ¿Alguna vez te has preguntado de dónde provienen tu pasión, tus sueños y tus intereses? ¿Qué es lo que te hace ser… tú? Pixar te lleva en un viaje desde las calles de Nueva York a los reinos cósmicos para descubrir las respuestas a las preguntas más importantes de la vida.</p>
+						<ul>
+							<li>
+								<span>Titulo:</span>
+								Soul
+							</li>
+							<li>
+								<span>Productora:</span>
+								Walt Disney Pictures
+							</li>
+							<li>
+								<span>Año:</span>
+								2020
+							</li>
+							<li>
+								<span>Genero:</span>
+								Animacion, Fantacia, Drama, Comedia, Aventura, Familiar
+							</li>
+							<li>
+								<span>Guion:</span>
+								Pete Docter, Mike jones, Kemp Powers
+							</li>
+							<li>
+								<span>Sinopsis:</span>
+								¿Alguna vez te has preguntado de dónde provienen tu pasión, tus sueños y tus intereses? ¿Qué es lo que te hace ser… tú? Pixar te lleva en un viaje desde las calles de Nueva York a los reinos cósmicos para descubrir las respuestas a las preguntas más importantes de la vida.
+							</li>
+						</ul>
 					</div>
 				</section>
 				<section class="mt-4">
-					<h2 class="silver">LUPIN</h2>
-					<div class="row mt-4">
+					<h2 class="silver">TENET</h2>
+					<div class="row mt-4 color">
+						<!-- Video Tenet-->
 						<div class="col-sm-6">
 							<div class="embed-responsive embed-responsive-16by9">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/yX5Py7lL5dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/bcfw0EWaFX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
-						<div class="col-sm-6 mt-4 mt-sm-0">
+						<!-- Inicio Ficha Tecnica-->
+						<div class="col-sm-6 mt-4 mt-sm-0 fondoNegro">
 							<h3 class="silver">FICHA TECNICA</h3>
-							<p>titulo: lupin</p>
-							<p>sinopsis: Miniserie de TV (2021). 5 episodios. Versión contemporánea del clásico francés, Omar Sy da vida a Assane Diop, protagonista de la serie y ladrón de guante blanco muy aficionado a las aventuras de Lupin, un personaje ficticio.</p>
+							<ul>
+								<li>
+									<span>Titulo:</span>
+									Tenet
+								</li>
+								<li>
+									<span>Productora:</span>
+									Warner Bros. Pictures
+								</li>
+								<li>
+									<span>Año:</span>
+									2020
+								</li>
+								<li>
+									<span>Genero:</span>
+									Accion, Ficcion, Suspenso, Triller
+								</li>
+								<li>
+									<span>Guion:</span>
+									Chritopher Nolan
+								</li>
+								<li>
+									<span>Sinopsis:</span>
+									Armado con tan solo una palabra –Tenet– el protagonista de esta historia deberá pelear por la supervivencia del mundo entero en una misión que le lleva a viajar a través del oscuro mundo del espionaje internacional, y cuya experiencia se desdoblará más allá del tiempo lineal.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</section>
