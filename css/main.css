@@ -8,7 +8,7 @@ span, .tituloColor {
 body {
   background-image: url(https://i0.wp.com/proximatanda.com/wp-content/uploads/2019/04/marvel.jpg?w=1920&ssl=1);
   margin: 0px;
-  padding-top: 90px;
+  padding-top: 65px;
   color: white;
   font-family: "Open Sans", sans-serif; }
 
@@ -41,7 +41,7 @@ nav a img {
   color: #ffffff;
   font-family: "Oswald", sans-serif;
   text-align: center;
-  background-color: #E8120C;
+  background-color: #282CA6;
   font-size: 25px; }
 
 /*Pie de pagina */
@@ -58,7 +58,6 @@ h4 {
 
 /*Video de fondo*/
 .videoFondo {
-  position: absolute;
   z-index: -100;
   top: 0;
   left: 0;
@@ -96,3 +95,12 @@ form fieldset {
 
 .footerAjustar {
   margin-top: 180px; }
+
+/* media query */
+@media (min-width: 576px) {
+  .videoFondo {
+    position: absolute; }
+  .formulario {
+    margin-top: 50px; }
+  body {
+    padding-top: 90px; } }

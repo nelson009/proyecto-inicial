@@ -3,7 +3,7 @@ $fuente-global: 'Open Sans', sans-serif;
 $fuente-titulo: 'Oswald', sans-serif;
 $bg-image-footer: linear-gradient(to bottom, navy, dodgerblue);
 $color-titulo-global: #ffffff;
-$bg-color-titulo-global: #E8120C;
+$bg-color-titulo-global: #282CA6;
 $color-global: #0093de;
 /* MIXIN */
 @mixin estilobody{
@@ -19,7 +19,7 @@ $color-global: #0093de;
 body{
 	background-image: url(https://i0.wp.com/proximatanda.com/wp-content/uploads/2019/04/marvel.jpg?w=1920&ssl=1);
 	margin: 0px;
-	padding-top: 90px;
+	padding-top: 65px;
 	color: white;
 	font-family: $fuente-global;
 }
@@ -75,10 +75,10 @@ h4{
 }
 /*Video de fondo*/
 .videoFondo{
-	position: absolute;
 	z-index: -100;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: auto;
 }
+
